@@ -1,0 +1,11 @@
+.container-fluid{
+    padding: 0;
+    background-size:cover;
+}
+
+body{
+    padding-top:50px;
+    padding-bottom: -70px;
+}
+
+
