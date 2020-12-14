@@ -4,8 +4,23 @@
 }
 
 body{
-    padding-top:50px;
-    padding-bottom: -70px;
+    padding-top:70px;
 }
 
-
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+}
+.jumbotron__background {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity:0.5;
+}
+.jumbotron .container {
+    z-index: 2;
+    position: relative;
+}
