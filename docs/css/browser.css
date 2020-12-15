@@ -1,0 +1,13 @@
+.container-fluid{
+    padding:0;
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background-color: aliceblue;
+}
+body{
+    position:relative;
+    padding-top:70px;
+}
