@@ -10,109 +10,133 @@
 
         gtag('config', 'G-808MPMTTNN');
     </script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="imgs/logo.jpg">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <title>Home Page</title>
+    <link rel="stylesheet" href="css/internet.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/599c0451c1.js" crossorigin="anonymous"></script>
+    <title>People</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">IS117</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="team.html">Team</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    History of the Internet
-                    <span class="sr-only">(current)</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="invention.html">The Invention of the Internet</a>
-                    <a class="dropdown-item" href="browser.html">Browser Wars</a>
-                    <a class="dropdown-item" href="internet.html">Internet Search</a>
-                    <a class="dropdown-item" href="dotcom.html">Dot Com Bubble</a>
-                    <a class="dropdown-item active" href="people.html">People</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<!--Content to be changed for each different page -->
-<div class="container">
-    <div class="row" style="margin-top:2rem">
-        <div class="col-7">
-            <h1>People</h1>
-            <p>
-                The users is the number one reason why the internet continues to run since its release to the public in the early
-                nineties. One of the deepest desires of humans is communication and the internet allowed and still allows people to
-                do this from their own homes. It is all about connecting individuals to each other and new information. The first
-                website that allowed the users to share music was Napster, launched in 1999; users with similar music tastes were
-                able to connect and formed their own web communities. Unfortunately, just after two years and millions of users,
-                Napster had to be shut down due to copyright issues and illegal file trading. The shutting down of Napster broke new
-                ground like the rise of Youtube and other platforms, where people were able to make their own content and share it
-                with others. Thus, starting a new era of the internet, known as Web 2.0.
-            </p>
-            <p>
-                Internet users were given a platform to express their creativity and indulge in their vanity, when creating content
-                related to themselves, and social networking was born after the dot-com bubble. Websites like Myspace, initially
-                used for sharing and accessing music, were being used by every person, band, and company. Not soon after, Facebook
-                rose to fame, created by Mark Zuckerberg. Unlike other creators whose websites would grow and suddenly fall due to
-                new websites emerging, Zuckerberg had a different approach. With Facebook, Zuckerberg wanted to create the ultimate
-                relationship engine, since he knew that we are all bound together by a web of relationships; everyone is distantly
-                connected to everyone. He even made it possible for other developers to build applications to make Facebook more
-                useful. All these ideas are why Facebook was so successful and popular.
-            </p>
-            <p>
-                Nowadays, there are so many ways for people to use the internet; it is constantly growing and at a rapid pace. There
-                is no one person or company that controlled it, big businesses could never hope to control it. Many websites are
-                made for users to post their thoughts, rants, and expertise on the internet, also known as blogging. Blogging set
-                user communication free. People finally became active players on the two-way web, what the creator of the World Wide
-                Web intended for it to be.
-            </p>
-        </div>
-        <div class="col-5">
-            <div class="card" style="width: 18rem;margin-left:4rem; margin-top:4rem;">
-                <div class="card-header">
-                    History of the Internet
-                </div>
-                <ul class="list-group list-group-flush">
-                    <a class="list-group-item" href="invention.html">The Invention of the Internet</a>
-                    <a class="list-group-item" href="browser.html">Browser Wars</a>
-                    <a class="list-group-item" href="internet.html">Internet Search</a>
-                    <a class="list-group-item" href="dotcom.html">Dot Com Bubble</a>
-                    <a class="list-group-item active list-group" href="people.html">People</a>
+<!--container-fluid-->
+<div class="container-fluid">
+    <!--NavBar-->
+    <nav class="navbar fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="imgs/logo.jpg" width="30" height="30" alt="Website Logo" loading="lazy">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <b>History of the Internet</b><span class="sr-only">(current)</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="invention.html">The Invention of the Internet</a>
+                            <a class="dropdown-item" href="browser.html">Browser Wars</a>
+                            <a class="dropdown-item" href="internet.html">Internet Search</a>
+                            <a class="dropdown-item" href="dotcom.html">Dot Com Bubble</a>
+                            <a class="dropdown-item active" href="people.html">People</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sources</a>
+                    </li>
                 </ul>
             </div>
-            <div style = "margin-top: 2rem; margin-left:4rem">
-                <span class="border border-dark">
-                   <img src="https://images.unsplash.com/photo-1567443024551-f3e3cc2be870?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-                        style ="width:18rem"
-                        alt="Picture of Google Browser">
-                </span>
+        </nav>
+    </nav>
+    <!--/NavBar-->
+
+    <!--Content-->
+    <div class="container-fluid" style="padding:2%">
+        <div class="row" style="margin-top:2rem">
+            <!--Article-->
+            <div class="col-7">
+                <h1>People</h1>
+                <p>
+                    The users is the number one reason why the internet continues to run since its release to the public in the early
+                    nineties. One of the deepest desires of humans is communication and the internet allowed and still allows people to
+                    do this from their own homes. It is all about connecting individuals to each other and new information. The first
+                    website that allowed the users to share music was Napster, launched in 1999; users with similar music tastes were
+                    able to connect and formed their own web communities. Unfortunately, just after two years and millions of users,
+                    Napster had to be shut down due to copyright issues and illegal file trading. The shutting down of Napster broke new
+                    ground like the rise of Youtube and other platforms, where people were able to make their own content and share it
+                    with others. Thus, starting a new era of the internet, known as Web 2.0.
+                </p>
+                <p>
+                    Internet users were given a platform to express their creativity and indulge in their vanity, when creating content
+                    related to themselves, and social networking was born after the dot-com bubble. Websites like Myspace, initially
+                    used for sharing and accessing music, were being used by every person, band, and company. Not soon after, Facebook
+                    rose to fame, created by Mark Zuckerberg. Unlike other creators whose websites would grow and suddenly fall due to
+                    new websites emerging, Zuckerberg had a different approach. With Facebook, Zuckerberg wanted to create the ultimate
+                    relationship engine, since he knew that we are all bound together by a web of relationships; everyone is distantly
+                    connected to everyone. He even made it possible for other developers to build applications to make Facebook more
+                    useful. All these ideas are why Facebook was so successful and popular.
+                </p>
+                <p>
+                    Nowadays, there are so many ways for people to use the internet; it is constantly growing and at a rapid pace. There
+                    is no one person or company that controlled it, big businesses could never hope to control it. Many websites are
+                    made for users to post their thoughts, rants, and expertise on the internet, also known as blogging. Blogging set
+                    user communication free. People finally became active players on the two-way web, what the creator of the World Wide
+                    Web intended for it to be.
+                </p>
             </div>
+            <!--/Article-->
+
+            <!--Sidebar-->
+            <div class="col-5">
+                <!--About the Author-->
+                <img src="imgs/Julia-Avatar.jpg"
+                     class="Avatar"
+                     style="color:gray"
+                     alt="An image of Julia">
+                By: <a href="https://github.com/juliaag831">
+                Julia-Marie Guinto</a>
+                <!--/About the Author-->
+
+                <!--Image-->
+                <div style = "margin-top: 2rem; margin-left:4rem">
+                    <img src="https://images.unsplash.com/photo-1567443024551-f3e3cc2be870?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                         style ="width:18rem"
+                         alt="Picture of YouTube Explore Page">
+                </div>
+                <!--Image-->
+            </div>
+            <!--/Sidebar-->
         </div>
     </div>
-</div>
+    <!--/Content-->
 
+    <!--Footer-->
+    <!--/Footer-->
+
+</div>
+<!--/container-fluid-->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
