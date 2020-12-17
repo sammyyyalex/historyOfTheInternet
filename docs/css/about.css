@@ -1,0 +1,17 @@
+.container-fluid{
+    padding: 0;
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    padding-top:70px;
+}
+
+.navbar{
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: aliceblue;
+}
