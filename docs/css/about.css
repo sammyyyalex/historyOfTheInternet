@@ -14,19 +14,19 @@ body{
 
 .footer-container{
     background-color: aliceblue;
-    padding: 0;
+    padding: 6rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .footer{
     width: 80%;
-    height: 40vh;
+    height: auto;
     background-color: aliceblue;
     color: black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .footer-heading{
@@ -56,5 +56,5 @@ body{
 }
 
 .footer-copyright h6{
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
