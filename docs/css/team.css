@@ -12,6 +12,14 @@ body{
     background-color: aliceblue;
 }
 
+.team-list img{
+    width: 50%
+}
+
+.team-list .content{
+    width: 50%
+}
+
 .footer-container{
     background-color: aliceblue;
     padding: 6rem;
@@ -55,6 +63,7 @@ body{
     color: black;
     margin-top: 4rem;
 }
+
 
 
 
