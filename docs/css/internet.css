@@ -29,6 +29,10 @@ body{
     position: relative;
 }
 
+.jumbotron .container h1{
+    color: white;
+}
+
 .footer-container{
     background-color: aliceblue;
     padding: 6rem;
